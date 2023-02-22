@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+.card1 {
+  background: #e28625;
+  border-radius: 8px 0px 0px 8px;
+  width: 307px;
+  height: 500px;
+}
+
+img {
+  width: 64px;
+  height: 40px;
+  margin: 48px 48px;
+  margin-bottom: 0px;
+}
+
+.p1 {
+  width: 99px;
+  height: 48px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-left: 48px;
+  color: #f2f2f2;
+  display: flex;
+}
+
+.p2 {
+  width: 212px;
+  height: 125px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  margin-left: 48px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  display: flex;
+  margin-top: 25px;
+}
+
+.btn {
+  background: #f2f2f2;
+  border-radius: 25px;
+  margin-top: 83px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  width: 146px;
+  height: 48px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  color: #e28625;
+  border-width: 0px;
+}
+
+.btn1:hover {
+  background: #e28625;
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+}
+
+.btn2 {
+  color: #006971;
+}
+
+.btn2:hover {
+  background: #006971;
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+}
+
+.btn3 {
+  color: #004140;
+}
+
+.btn3:hover {
+  background: #004140;
+  color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+}
+
+.card2 {
+  width: 307px;
+  height: 500px;
+  background: #006971;
+}
+
+.card3 {
+  background: #004140;
+  border-radius: 0px 8px 8px 0px;
+  width: 307px;
+  height: 500px;
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+    margin: 88px 24px;
+    width: 327px;
+    height: 1326px;
+  }
+}/*# sourceMappingURL=style.css.map */
